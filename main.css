@@ -1,0 +1,13 @@
+fieldset.required {
+    border: none;
+}
+
+input:valid+span:after {
+    content: url(http://htmlbook.ru/example/images/ok.png);
+    margin: 15px;
+}
+
+input:invalid+span:after {
+    content: url(http://htmlbook.ru/example/images/nook.png);
+    margin: 15px;
+}

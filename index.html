@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Required Form Fields</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form action="handler.php">
+        <fieldset class="required">
+            <legend>Пожалуйста, заполните обязательные поля.</legend>
+            <p> <label>Имя: <input type="text" required><span></span></label></p>
+            <p> <label>Возраст: <input type="number" size="12" min="1" max="99" value="1"><span></span></label></p>
+            <p> <label>E-mail: <input type="email" required><span></span></label></p>
+            <p> <label>Сайт: <input type="text"><span></span></label></p>
+            <button type="submit">Отправить-править-править!</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
